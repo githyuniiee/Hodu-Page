@@ -541,6 +541,7 @@
             console.log(datas);
 
             makeImageList(datas);
+            console.log("사진 나옴");
 
         } catch (error) {
             console.error('데이터를 가져오는데 문제가 발생했습니다 :', error);
@@ -550,12 +551,22 @@
 
 
     function makeImageList(datas){
-        datas.forEach((item) =>{
-            if(item.includes('hodu')) {
-                imageList.innerHTML += "<li><img src="+item +" alt=''></li>";
-            }else {
-                imageList.innerHTML += "<li><img src=" + item.download_url + " alt=''></li>";
+        datas.forEach((item) => {
+            const listItem = document.createElement("li");
+            const img = document.createElement("img");
+
+            if (typeof item === 'string') {
+                img.src = item;
+            } else if (item.download_url) {
+                img.src = item.download_url;
+            } else {
+                console.error('예상하지 못한 데이터 형식:', item);
+                return;
             }
+
+            img.alt = '';
+            listItem.appendChild(img);
+            imageList.appendChild(listItem);
         });
     }
 

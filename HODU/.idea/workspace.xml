@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029e11d3-f5e6-4d06-b828-4917a01441bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rectangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-insta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon-youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal_cat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="029e11d3-f5e6-4d06-b828-4917a01441bd" name="Changes" comment="1/17">
       <change beforePath="$PROJECT_DIR$/hodu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hodu2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scroll1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scroll2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +61,24 @@
       <workItem from="1705302303403" duration="34643000" />
       <workItem from="1705394374159" duration="639000" />
       <workItem from="1705410948713" duration="5812000" />
-      <workItem from="1705454377054" duration="18498000" />
+      <workItem from="1705454377054" duration="19133000" />
     </task>
+    <task id="LOCAL-00001" summary="1/17">
+      <option name="closed" value="true" />
+      <created>1705477165590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705477165590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1/17" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/17" />
   </component>
 </project>
