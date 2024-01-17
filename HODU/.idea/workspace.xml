@@ -5,30 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="029e11d3-f5e6-4d06-b828-4917a01441bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageLoader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hodu_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_cat_png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scroll1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scroll2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaScript/JavaScript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/GmarketSansLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/lockBack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/oneMillionPrincipal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/oneMillionTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/quotes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/touch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/tvN.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oneMillionTime/위니브.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hodu_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon-youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modal_cat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hodu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hodu2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scroll1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scroll2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +57,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/bohyun/Desktop/EST FRONT/Hodu-Page/HODU",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1705302301436</updated>
       <workItem from="1705302303403" duration="34643000" />
+      <workItem from="1705394374159" duration="639000" />
+      <workItem from="1705410948713" duration="5812000" />
+      <workItem from="1705454377054" duration="18498000" />
     </task>
     <servers />
   </component>
