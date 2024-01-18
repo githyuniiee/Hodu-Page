@@ -103,3 +103,18 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
     };
 
 var map = new kakao.maps.Map(mapContainer, mapOption);
+
+/** sns 이동*/
+document.querySelector('.blog').addEventListener('click', function() {
+    window.location.href = 'https://section.blog.naver.com/';
+});
+document.querySelector('.instagram').addEventListener('click', function() {
+    window.location.href = 'https://www.instagram.com/';
+});
+document.querySelector('.facebook').addEventListener('click', function() {
+    window.location.href = 'https://www.facebook.com/';
+});
+document.querySelector('.youtube').addEventListener('click',
+    function () {
+        window.location.href = 'https://www.youtube.com/';
+    });
