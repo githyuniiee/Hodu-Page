@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029e11d3-f5e6-4d06-b828-4917a01441bd" name="Changes" comment="1/17 수정">
-      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="029e11d3-f5e6-4d06-b828-4917a01441bd" name="Changes" comment="modal 수정">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hodu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hodu.js" beforeDir="false" afterPath="$PROJECT_DIR$/hodu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1705394374159" duration="639000" />
       <workItem from="1705410948713" duration="5812000" />
       <workItem from="1705454377054" duration="23289000" />
-      <workItem from="1705539534700" duration="1231000" />
+      <workItem from="1705539534700" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="1/17">
       <option name="closed" value="true" />
@@ -85,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705477802245</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modal 수정">
+      <option name="closed" value="true" />
+      <created>1705540787106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705540787106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1/17" />
     <MESSAGE value="1/17 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/17 수정" />
+    <MESSAGE value="modal 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal 수정" />
   </component>
 </project>
