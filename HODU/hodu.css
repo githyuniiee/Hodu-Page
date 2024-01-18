@@ -345,19 +345,13 @@ a{
     margin: 5px 5px 5px 137px;
     border: 0;
 }
-
 .hodu_bottom{
     height: 340px;
     margin: -100px auto auto auto;
 }
-.hover{
-    background-color: #263140;
-}
 /*.hodu_page_bottom .hover {*/
-/*    position: relative;*/
 /*    width: 50px;*/
 /*    height: 50px;*/
-/*    z-index: 2;*/
 /*}*/
 .bottom {
     position: relative;
