@@ -276,6 +276,7 @@
         margin:48px auto 81px auto;
         width:1278px;
         height:520px;
+        z-index: 1;
 
     }
     .main4 {
@@ -340,7 +341,7 @@
         border: 0;
         margin-left: -30px;
     }
-    .subscribe {
+    #subscribe {
         width: 135px;
         height: 50px;
         border-radius: 40px;
@@ -352,6 +353,7 @@
         color: white;
         background-color: #D97652;
         margin: 5px 5px 5px 137px;
+        border: 0;
     }
     .hodu_bottom{
         height: 340px;
@@ -370,6 +372,67 @@
     }
     .communities{
         margin: auto;
+    }
+    #modal{
+        position: relative;
+        /*top: 50%;*/
+        /*right: 50%;*/
+        flex-direction: column;
+        z-index: 2;
+        display: none;
+        margin:  auto;
+        padding-right: 550px;
+        /*padding-bottom: 500px;*/
+    }
+    .background{
+        position: absolute;
+        width: 600px;
+        height: 400px;
+    }
+    .cat{
+        position: absolute;
+        z-index: 1;
+        margin-left: 245px;
+        margin-top: 60px;
+    }
+    .modal .writing{
+        position: absolute;
+        z-index: 2;
+        width: 600px;
+        text-align: center;
+    }
+    .modal .writing1{
+        margin-top: 196px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        color: #D97652;
+    }
+    .modal .writing2{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin:12px;
+        z-index: 2;
+    }
+    .modal_button{
+        position: absolute;
+        z-index: 3;
+        width: 183px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: #D97652;
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        text-align: center;
+        border: 0;
+        margin-top: 310px;
+        padding: 0;
+        margin-left: 205px;
+
     }
 
 
@@ -478,6 +541,15 @@
 </section>
 
 <section class="main4">
+    <section id="modal" class="modal">
+        <img class="background" src="background.png">
+        <img class="cat" src="modal_cat.png">
+        <div class="writing">
+            <p class="writing1">Thank you!</p>
+            <p class="writing2">Lorem Ipsum is simply dummy text of the printing industry.</p>
+        </div>
+        <button class="modal_button" type="submit">OK! I Love HODU</button>
+    </section>
     <div class="box">
         <div class="writing">
         <p class="writing_1">
@@ -492,13 +564,14 @@
             <form class="email_form">
                 <img class="mail" src="mail.png" alt="mail">
                 <input type="email" name="email" class="email" placeholder="Enter your e-mail address">
-                <button class="subscribe">Subscribe</button>
+                <button id="subscribe">Subscribe</button>
             </form>
         </div>
     </div>
     <img class="hodu_bottom" src="hodu_bottom.png" alt="hodu_bottom">
 <!--    <img class="hover" src=""-->
 </section>
+
 
 <section class= "bottom">
     <img class="bottom_hodu_logo" src="hodu_img.png">
@@ -604,6 +677,22 @@
     var map = new kakao.maps.Map(mapContainer, mapOption);
 </script>
 
+<script>
+    //모달 창 열기 자바스크립트
+    const modal = document.getElementById("modal");
+    const subscribe = document.getElementById("subscribe");
+    subscribe.addEventListener("click", e=> {
+        e.preventDefault();
+        modal.style.display = "flex"
+    })
+
+    //모달 창 닫기 자바스크립트
+    const modalButton = modal.querySelector(".modal_button")
+    modalButton.addEventListener("click", e=> {
+        e.preventDefault();
+        modal.style.display = "none"
+    })
+</script>
 
 
 </body>

@@ -7,10 +7,7 @@
     <title>HODU</title>
 </head>
 <style>
-    .modal{
-        /*display: flex;*/
-        /*justify-content: center;*/
-        /*position: absolute;*/
+    modal{
         flex-direction: column;
     }
     .background{
@@ -28,13 +25,11 @@
     }
     .writing{
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         width: 600px;
         text-align: center;
     }
     .writing1{
-        /*display: flex;*/
-        /*justify-content: space-evenly;*/
         margin-top: 196px;
         margin-bottom: 0;
         font-weight: 700;
@@ -47,9 +42,11 @@
         font-size: 14px;
         line-height: 18px;
         margin:12px;
-        z-index: 1;
+        z-index: 2;
     }
     .modal_button{
+        position: absolute;
+        z-index: 3;
         width: 183px;
         height: 50px;
         border-radius: 40px;
@@ -57,7 +54,13 @@
         color: white;
         font-size: 16px;
         line-height: 20px;
+        font-weight: 700;
         text-align: center;
+        border: 0;
+        margin-top: 310px;
+        padding: 0;
+        margin-left: 205px;
+
     }
 
 </style>
