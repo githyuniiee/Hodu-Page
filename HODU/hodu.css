@@ -345,23 +345,43 @@ a{
     margin: 5px 5px 5px 137px;
     border: 0;
 }
+.bottom_img{
+ position: relative;
+    display: flex;
+    justify-content: center;
+}
 .hodu_bottom{
+    position: absolute;
     height: 340px;
     margin: -100px auto auto auto;
 }
-/*.hodu_page_bottom .hover {*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*}*/
+.hover1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    z-index: 2;
+    margin-left: 1846px;
+    margin-top: 171px;
+}
+.hover1:hover {
+    content: url('hover2.png');
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
 .bottom {
     position: relative;
     display: flex;
     justify-content: space-between;
     width: 1920px;
     height: 180px;
-    margin: auto;
+    margin: 200px auto auto auto ;
+    padding: 50px 0 0 0;
 }
 .bottom_hodu_logo {
+    display: flex;
     margin: auto;
 }
 .communities{
@@ -369,14 +389,11 @@ a{
 }
 #modal{
     position: relative;
-    /*top: 50%;*/
-    /*right: 50%;*/
     flex-direction: column;
     z-index: 2;
     display: none;
     margin:  auto;
     padding-right: 550px;
-    /*padding-bottom: 500px;*/
 }
 .background{
     position: absolute;
