@@ -2,17 +2,13 @@
 
 ### 진행 상황
 
-![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/61b529f4-2332-4de4-b4da-c7c7a444ceac) ![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/57737e0d-8150-4822-abcb-17ee6f2897b1)
+![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/19b1479c-1c4b-4d3d-bfbd-08a1f23a659e)
 
+![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/d7323bb5-9102-4655-9a4f-1ab5ab6929fa)
 
-
-![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/cb1efdaa-665f-4c6c-8b77-fcd989821ea6)
-
+![image](https://github.com/githyuniiee/Hodu-Page/assets/109260733/b5fe743c-bf1a-43c4-8f31-ac574386588c)
 
 
 ### 수정해야할 부분
-✅ hover 추가 <br>
-✅ kakao 맵 수정 <br>
-✅ download 버튼 수정 <br>
-✅ 반응형 <br>
+✅ 디렉토리 구조 수정
 
