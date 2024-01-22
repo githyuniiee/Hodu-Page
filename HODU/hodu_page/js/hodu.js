@@ -6,12 +6,12 @@ let isLoading = false; // 이미지 로딩 중인지 확인하는 변수를 추�
 
 document.addEventListener('DOMContentLoaded', () => {
     initialImages = [
-        "hodu_1.png",
-        "hodu_2.png",
-        "hodu_3.png",
-        "hodu_4.png",
-        "hodu_5.png",
-        "hodu_6.png",
+        "/hodu_page/png/hodu_1.png",
+        "/hodu_page/png/hodu_2.png",
+        "/hodu_page/png/hodu_3.png",
+        "/hodu_page/png/hodu_4.png",
+        "/hodu_page/png/hodu_5.png",
+        "/hodu_page/png/hodu_6.png",
     ];
     makeImageList(initialImages);
 });
