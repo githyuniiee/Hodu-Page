@@ -366,7 +366,7 @@ a{
     margin-top: 171px;
 }
 .hover1:hover {
-    content: url('/hodu_page/png/hover2.png');
+    content: url('../png/hover2.png');
     width: 50px;
     height: 50px;
     border-radius: 50px;
