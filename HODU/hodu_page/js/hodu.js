@@ -67,7 +67,7 @@ subscribe.addEventListener("click", e=> {
     modal.style.display = "flex"
 })
 
-//모달 창 닫기 자바스크립트
+/**모달 창 닫기 자바스크립트*/
 const modalButton = modal.querySelector(".modal_button")
 modalButton.addEventListener("click", e=> {
     e.preventDefault();
