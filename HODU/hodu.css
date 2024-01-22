@@ -383,9 +383,13 @@ a{
 .bottom_hodu_logo {
     display: flex;
     margin: auto;
+    width: 226px;
+    height: 70px;
 }
 .communities{
-    margin: auto;
+    margin: auto 320px auto auto;
+    display: flex;
+    gap: 20px;
 }
 #modal{
     position: relative;

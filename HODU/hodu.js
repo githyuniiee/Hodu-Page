@@ -1,12 +1,11 @@
 /** 무한 스크롤 */
 const imageList = document.querySelector(".hodu_scroll_img");
 let pageToFetch = 1;
-let showMoreClicked = false; //show more 버튼이 클릭되었는지
+let showMoreClicked = false;
+let isLoading = false; // 이미지 로딩 중인지 확인하는 변수를 추가합니다.
 
-//초기 이미지
 document.addEventListener('DOMContentLoaded', () => {
-
-    const initialImages = [
+    initialImages = [
         "hodu_1.png",
         "hodu_2.png",
         "hodu_3.png",
@@ -14,70 +13,50 @@ document.addEventListener('DOMContentLoaded', () => {
         "hodu_5.png",
         "hodu_6.png",
     ];
-
     makeImageList(initialImages);
 });
 
 async function fetchImages(pageNum){
+    isLoading = true; // 이미지 로딩을 시작합니다.
     try {
-        const response = await fetch('https://picsum.photos/v2/list?page=' +pageNum+'&limit=6');
+        const response = await fetch('https://picsum.photos/v2/list?page=' + pageNum);
         if (!response.ok) {
             throw new Error('네트워크 응답에 문제가 있습니다.');
         }
-
         const datas = await response.json();
-        console.log(datas);
-
         makeImageList(datas);
-        console.log("사진 나옴");
-
     } catch (error) {
         console.error('데이터를 가져오는데 문제가 발생했습니다 :', error);
+    } finally {
+         isLoading = false;
     }
 }
-
-
 
 function makeImageList(datas){
     datas.forEach((item) => {
         const listItem = document.createElement("li");
         const img = document.createElement("img");
-
-        if (typeof item === 'string') {
-            img.src = item;
-        } else if (item.download_url) {
-            img.src = item.download_url;
-        } else {
-            console.error('예상하지 못한 데이터 형식:', item);
-            return;
-        }
-
+        img.src = typeof item === 'string' ? item : item.download_url;
         img.alt = '';
         listItem.appendChild(img);
         imageList.appendChild(listItem);
     });
 }
 
-window.addEventListener('scroll', ()=>{
-    //스크롤이 상단으로부터 얼마나 이동했는지 알아야함 (뷰포트 높이 + 스크롤된 길이)
-    //화면에 로딩된 페이지의 전체 높이
-    //뷰포트의 높이 + 스크롤된 높이 + 10 === 화면에 로딩된 페이지의 전체 높이
-    //show more 버튼 클릭하지 않으면, 무한 스크롤 x
-
-    if(!showMoreClicked) return;
-
-    if(window.innerHeight + document.documentElement.scrollTop + 10 >= document.documentElement.offsetHeight) {
-
-        fetchImages(pageToFetch += 1, 6);
+const scrollLayout = document.querySelector('.scroll_layout'); //스크롤 레이아웃 선택
+scrollLayout.addEventListener('scroll', ()=>{
+    if(!isLoading && showMoreClicked && scrollLayout.scrollTop + scrollLayout.clientHeight >= scrollLayout.scrollHeight) {
+        fetchImages(++pageToFetch);
     }
-
 });
-fetchImages(pageToFetch, 6);
 
 document.querySelector('.show').addEventListener('click', function() {
     showMoreClicked = true;
-    fetchImages(pageToFetch += 1, 6); // 버튼 클릭 시 추가 이미지 6개씩 로드
+    fetchImages(++pageToFetch);
 });
+
+
+
 
 
 /** 모달 창 */
@@ -130,3 +109,12 @@ document.querySelector('.youtube').addEventListener('click',
     function () {
         window.location.href = 'https://www.youtube.com/';
     });
+
+/**hover*/
+document.querySelector('.hover1').addEventListener('click', function() {
+    // Scroll to the top of the page smoothly
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
