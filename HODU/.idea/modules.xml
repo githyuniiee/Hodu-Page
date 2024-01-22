@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HODU.iml" filepath="$PROJECT_DIR$/HODU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hodu_page.iml" filepath="$PROJECT_DIR$/hodu_page.iml" />
     </modules>
   </component>
 </project>
